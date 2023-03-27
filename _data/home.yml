@@ -8,7 +8,7 @@ navbar_entries:
 project_entries:
   - title: Trivai
     url: announcing-trivai
-    desc: Trivai is a quiz game using OpenAI models to generate trivia questions.
+    desc: Trivai is a quiz game using large language models to generate trivia questions.
 
 footer_entries:
   - title: github
