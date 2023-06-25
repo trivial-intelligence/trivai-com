@@ -1,0 +1,19 @@
+---
+layout: post
+---
+
+The double oh seven release of Trivia was cut today, with notable changes to the prompt
+that generates the questions.
+
+We're now using [OpenAI functions](https://yonom.substack.com/p/native-json-output-from-gpt-4)
+to complete a machine readable JSON file instead of trying to convince the model to produce
+valid JSON via text and examples. Now there are significantly fewer possibilities for unreadable
+responses to category generation requests, and the generation itself is a bit faster. I think
+the ability for the model to generate better and more interesting questions is also
+improved since it now doesn't have to exert as much effort conforming to a particular schema.
+
+Also, the code has been updated to work with the latest version of pynecone.
+
+Also, I'm going to work for pynecone the company this week!
+
+✌️
